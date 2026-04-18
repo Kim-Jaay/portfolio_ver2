@@ -1,0 +1,113 @@
+[
+  {
+    "id": "achromat",
+    "slug": "achromat",
+    "title": "Achromat",
+    "category": "Design | Publishing",
+    "thumbnail": "/images/achromat/thumb.jpg",
+    "date": "2026.01",
+    "period": "2026.01 - 2026.04",
+    "description": "프로젝트에 대한 설명을 여기에 작성합니다. 브랜드 아이덴티티와 웹사이트 디자인 및 퍼블리싱 작업입니다.",
+    "url": "https://example.com",
+    "sections": [
+      {
+        "type": "full",
+        "image": "/images/achromat/hero.jpg",
+        "caption": "첫 번째 이미지에 대한 설명 텍스트 첫 번째 줄.\n두 번째 줄 설명입니다."
+      },
+      {
+        "type": "grid",
+        "images": [
+          "/images/achromat/img1.jpg",
+          "/images/achromat/img2.jpg"
+        ],
+        "caption": "그리드 이미지에 대한 설명 텍스트.\n두 번째 줄 설명.\n세 번째 줄 설명입니다."
+      },
+      {
+        "type": "full",
+        "image": "/images/achromat/img3.jpg",
+        "caption": "마지막 이미지 설명입니다."
+      }
+    ]
+  },
+  {
+    "id": "anjiglobal",
+    "slug": "anjiglobal",
+    "title": "AnjiGlobal",
+    "category": "Web Design | Publishing",
+    "thumbnail": "/images/anjiglobal/thumb.jpg",
+    "date": "2025.11",
+    "period": "2025.10 - 2025.11",
+    "description": "AnjiGlobal 기업 웹사이트 디자인 및 퍼블리싱 작업입니다.",
+    "url": "https://example.com",
+    "sections": [
+      {
+        "type": "full",
+        "image": "/images/anjiglobal/hero.jpg",
+        "caption": "메인 페이지 디자인."
+      },
+      {
+        "type": "grid",
+        "images": [
+          "/images/anjiglobal/img1.jpg",
+          "/images/anjiglobal/img2.jpg"
+        ],
+        "caption": "서브 페이지 디자인."
+      }
+    ]
+  },
+  {
+    "id": "ksys",
+    "slug": "ksys",
+    "title": "KSYS",
+    "category": "Web Design | Publishing",
+    "thumbnail": "/images/ksys/thumb.jpg",
+    "date": "2025.08",
+    "period": "2025.07 - 2025.08",
+    "description": "KSYS 기업 웹사이트 디자인 및 퍼블리싱 작업입니다.",
+    "url": "https://example.com",
+    "sections": [
+      {
+        "type": "full",
+        "image": "/images/ksys/hero.jpg",
+        "caption": "메인 페이지 디자인."
+      }
+    ]
+  },
+  {
+    "id": "grassbell",
+    "slug": "grassbell",
+    "title": "Grassbell",
+    "category": "Web Design | Publishing",
+    "thumbnail": "/images/grassbell/thumb.jpg",
+    "date": "2025.05",
+    "period": "2025.04 - 2025.05",
+    "description": "Grassbell 브랜드 웹사이트 디자인 및 퍼블리싱 작업입니다.",
+    "url": "https://example.com",
+    "sections": [
+      {
+        "type": "full",
+        "image": "/images/grassbell/hero.jpg",
+        "caption": "메인 페이지 디자인."
+      }
+    ]
+  },
+  {
+    "id": "cntech",
+    "slug": "cntech",
+    "title": "C&Tech",
+    "category": "Web Design | Publishing",
+    "thumbnail": "/images/cntech/thumb.jpg",
+    "date": "2025.03",
+    "period": "2025.02 - 2025.03",
+    "description": "C&Tech 기업 웹사이트 디자인 및 퍼블리싱 작업입니다.",
+    "url": "https://example.com",
+    "sections": [
+      {
+        "type": "full",
+        "image": "/images/cntech/hero.jpg",
+        "caption": "메인 페이지 디자인."
+      }
+    ]
+  }
+]
