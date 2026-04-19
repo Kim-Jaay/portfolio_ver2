@@ -11,7 +11,7 @@ export default function CloseButton() {
       onClick={() => router.push('/')}
       aria-label="목록으로 돌아가기"
     >
-      ✕
+     <i className="xi-close"></i>
     </button>
   )
 }
