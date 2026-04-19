@@ -14,13 +14,7 @@ const SOCIAL_LINKS = {
 }
 
 // ─── 아이콘 컴포넌트 ──────────────────────────────────────────────
-function KakaoIcon() {
-  return (
-    <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
-      <path d="M12 3C6.477 3 2 6.477 2 10.8c0 2.7 1.6 5.1 4 6.5l-.5 3.5 3.5-2.2c.9.2 1.9.3 3 .3 5.523 0 10-3.477 10-7.8S17.523 3 12 3z" />
-    </svg>
-  )
-}
+
 
 function InstagramIcon() {
   return (
@@ -55,16 +49,16 @@ function SidebarBottom() {
     <div className="sidebar__bottom">
       <div className="sidebar__social">
         <a href={SOCIAL_LINKS.kakao} target="_blank" rel="noreferrer" aria-label="KakaoTalk">
-          <KakaoIcon />
+          <i className="xi-kakao"></i>
         </a>
         <a href={SOCIAL_LINKS.instagram} target="_blank" rel="noreferrer" aria-label="Instagram">
-          <InstagramIcon />
+          <i className="xi-instagram"></i>
         </a>
         <a href={SOCIAL_LINKS.email} aria-label="Email">
-          <EmailIcon />
+          <i className="xi-mail"></i>
         </a>
         <a href={SOCIAL_LINKS.phone} aria-label="Phone">
-          <PhoneIcon />
+          <i className="xi-call"></i>
         </a>
       </div>
       <p className="sidebar__copyright">© 2022-2026 Jay. All Rights Reserved.</p>

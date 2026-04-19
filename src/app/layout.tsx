@@ -23,7 +23,6 @@ export default function RootLayout({
       <head>
         <link rel="stylesheet" href="/xeicon/xeicon.min.css" />
       </head>
-
       <body>{children}</body>
     </html>
   )
