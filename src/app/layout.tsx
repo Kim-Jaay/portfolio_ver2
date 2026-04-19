@@ -20,6 +20,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="ko">
+      <head>
+        <link rel="stylesheet" href="/xeicon/xeicon.min.css" />
+      </head>
+
       <body>{children}</body>
     </html>
   )
