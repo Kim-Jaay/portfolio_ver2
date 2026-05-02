@@ -12,20 +12,20 @@ export default function ContactPage() {
             프로젝트 문의, 협업 제안은 언제든 환영합니다.
           </p>
           <p>
-            Email: <a href="mailto:your@email.com">your@email.com</a>
+            Email: <a href="mailto:woo_boo@naver.com">woo_boo@naver.com</a>
           </p>
           <p>
             KakaoTalk:{' '}
-            <a href="https://open.kakao.com/your-link" target="_blank" rel="noreferrer">
+            <a href="https://open.kakao.com/o/sSuaUfof" target="_blank" rel="noreferrer">
               오픈 채팅
             </a>
           </p>
-          <p>
+          {/* <p>
             Instagram:{' '}
             <a href="https://instagram.com/your-handle" target="_blank" rel="noreferrer">
               @your-handle
             </a>
-          </p>
+          </p> */}
         </div>
       </main>
     </div>

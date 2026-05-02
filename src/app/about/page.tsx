@@ -12,12 +12,12 @@ export default function AboutPage() {
             안녕하세요, 웹 디자이너 & 퍼블리셔 Jay입니다.
           </p>
           <p>
-            브랜드의 아이덴티티를 화면에 담는 작업을 합니다.
+            브랜드의 아이덴티티를 화면에 담는 작업을 합니다.<br/>
             UI/UX 설계부터 HTML/CSS 퍼블리싱까지 전 과정을 진행합니다.
           </p>
           <p>
             문의:{' '}
-            <a href="mailto:your@email.com">your@email.com</a>
+            <a href="mailto:woo_boo@naver.com">woo_boo@naver.com</a>
           </p>
         </div>
       </main>

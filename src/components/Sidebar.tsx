@@ -7,10 +7,10 @@ import type { Project } from '../types/project'
 // 소셜 아이콘 SVG (카카오톡, 인스타그램, 이메일, 전화)
 // 실제 URL은 아래 SOCIAL_LINKS 객체에서 수정하세요
 const SOCIAL_LINKS = {
-  kakao: 'https://open.kakao.com/your-link',
+  kakao: 'https://open.kakao.com/o/sSuaUfof',
   instagram: 'https://instagram.com/your-handle',
-  email: 'mailto:your@email.com',
-  phone: 'tel:+821012345678',
+  email: 'mailto:woo_boo@naver.com',
+  phone: 'tel:+821075788546',
 }
 
 
@@ -23,15 +23,15 @@ function SidebarBottom() {
         <a href={SOCIAL_LINKS.kakao} target="_blank" rel="noreferrer" aria-label="KakaoTalk">
           <i className="xi-kakao"></i>
         </a>
-        <a href={SOCIAL_LINKS.instagram} target="_blank" rel="noreferrer" aria-label="Instagram">
+        {/* <a href={SOCIAL_LINKS.instagram} target="_blank" rel="noreferrer" aria-label="Instagram">
           <i className="xi-instagram"></i>
-        </a>
+        </a> */}
         <a href={SOCIAL_LINKS.email} aria-label="Email">
           <i className="xi-mail"></i>
         </a>
-        <a href={SOCIAL_LINKS.phone} aria-label="Phone">
+        {/* <a href={SOCIAL_LINKS.phone} aria-label="Phone">
           <i className="xi-call"></i>
-        </a>
+        </a> */}
       </div>
       <p className="sidebar__copyright">© 2022-2026 Jay. All Rights Reserved.</p>
     </div>
