@@ -8,7 +8,7 @@
     "date": "2026.01",
     "period": "2026.01 - 2026.04",
     "description": "프로젝트에 대한 설명을 여기에 작성합니다. 브랜드 아이덴티티와 웹사이트 디자인 및 퍼블리싱 작업입니다.",
-    "url": "https://example.com",
+    "url": "http://www.achromaterials.com/?locale=en_US",
     "sections": [
       {
         "type": "full",
@@ -31,26 +31,26 @@
     ]
   },
   {
-    "id": "anjiglobal",
-    "slug": "anjiglobal",
-    "title": "AnjiGlobal",
+    "id": "amiglobal",
+    "slug": "amiglobal",
+    "title": "AmiGlobal",
     "category": "Web Design | Publishing",
-    "thumbnail": "/images/anjiglobal/thumb.jpg",
+    "thumbnail": "/images/amiglobal/thumb.jpg",
     "date": "2025.11",
     "period": "2025.10 - 2025.11",
-    "description": "AnjiGlobal 기업 웹사이트 디자인 및 퍼블리싱 작업입니다.",
-    "url": "https://example.com",
+    "description": "AmiGlobal 기업 웹사이트 디자인 및 퍼블리싱 작업입니다.",
+    "url": "https://www.a-mi.co.kr/",
     "sections": [
       {
         "type": "full",
-        "image": "/images/anjiglobal/hero.jpg",
+        "image": "/images/amiglobal/hero.jpg",
         "caption": "메인 페이지 디자인."
       },
       {
         "type": "grid",
         "images": [
-          "/images/anjiglobal/img1.jpg",
-          "/images/anjiglobal/img2.jpg"
+          "/images/amiglobal/img1.jpg",
+          "/images/amiglobal/img2.jpg"
         ],
         "caption": "서브 페이지 디자인."
       }
@@ -65,7 +65,7 @@
     "date": "2025.08",
     "period": "2025.07 - 2025.08",
     "description": "KSYS 기업 웹사이트 디자인 및 퍼블리싱 작업입니다.",
-    "url": "https://example.com",
+    "url": "ksys.co.kr",
     "sections": [
       {
         "type": "full",
@@ -75,19 +75,19 @@
     ]
   },
   {
-    "id": "grassbell",
-    "slug": "grassbell",
-    "title": "Grassbell",
+    "id": "grandbell",
+    "slug": "grandbell",
+    "title": "grandbell",
     "category": "Web Design | Publishing",
-    "thumbnail": "/images/grassbell/thumb.jpg",
+    "thumbnail": "/images/grandbell/thumb.jpg",
     "date": "2025.05",
     "period": "2025.04 - 2025.05",
-    "description": "Grassbell 브랜드 웹사이트 디자인 및 퍼블리싱 작업입니다.",
-    "url": "https://example.com",
+    "description": "grandbell 브랜드 웹사이트 디자인 및 퍼블리싱 작업입니다.",
+    "url": "https://grandbell2026.mycafe24.com/",
     "sections": [
       {
         "type": "full",
-        "image": "/images/grassbell/hero.jpg",
+        "image": "/images/grandbell/hero.jpg",
         "caption": "메인 페이지 디자인."
       }
     ]
@@ -101,7 +101,7 @@
     "date": "2025.03",
     "period": "2025.02 - 2025.03",
     "description": "C&Tech 기업 웹사이트 디자인 및 퍼블리싱 작업입니다.",
-    "url": "https://example.com",
+    "url": "http://cntech-showroom.d-project.kr:8081/",
     "sections": [
       {
         "type": "full",
