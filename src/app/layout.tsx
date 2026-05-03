@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title: 'JAYDAY — Portfolio',
   description: 'Web Designer & Publisher Portfolio',
   // 도메인 구입 후 아래 수정
-  metadataBase: new URL('https://yourdomain.com'),
+  metadataBase: new URL('http://kim-jay.com'),
   openGraph: {
     title: 'JAYDAY — Portfolio',
     description: 'Web Designer & Publisher Portfolio',
