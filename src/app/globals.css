@@ -10,6 +10,7 @@ img { display: block; width: 100%; height: 100%; object-fit: cover; }
   src: url("/fonts/BelgianoSerif.woff") format("woff");
 }
 /* ─── Layout ────────────────────────────────────────────────────── */
+* {word-break: keep-all;}
 .layout { display: flex; min-height: 100vh; }
 /* ─── Sidebar ───────────────────────────────────────────────────── */
 .sidebar { position: fixed; top: 0; left: 0; width: 300px; height: 100vh; padding: 24px 20px; display: flex; flex-direction: column; z-index: 100; background: #fff; }
@@ -35,10 +36,10 @@ img { display: block; width: 100%; height: 100%; object-fit: cover; }
 /* ─── Project List (메인) ───────────────────────────────────────── */
 .project-list { display: flex; flex-direction: column; }
 .project-card { display: block; position: relative; overflow: hidden; cursor: pointer; }
-.project-card__image { width: 100%; aspect-ratio: 16 / 4; overflow: hidden; background: #f0f0f0; }
+.project-card__image { width: 100%; aspect-ratio: 16 / 5; overflow: hidden; background: #f0f0f0; }
 .project-card__image img { transition: transform 0.5s ease; }
 .project-card:hover .project-card__image img { transform: scale(1.03); }
-.project-card__info { display: flex; justify-content: space-between; align-items: center; padding: 12px 0; border-bottom: 1px solid #eee; }
+.project-card__info { display: flex; justify-content: space-between; align-items: center; padding: 12px 12px 32px 0 ; border-bottom: 1px solid #eee; }
 .project-card__title { font-size: 1.3rem; font-weight: 400; color: #111; }
 .project-card__date { font-size: 1.1rem; color: #aaa; }
 /* ─── 더보기 버튼 ───────────────────────────────────────────────── */
