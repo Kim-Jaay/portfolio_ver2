@@ -4,7 +4,7 @@ import { useState } from 'react'
 import type { Project } from '../types/project'
 import ProjectCard from './ProjectCard'
 
-const PAGE_SIZE = 5
+const PAGE_SIZE = 8
 
 interface ProjectListProps {
   projects: Project[]
