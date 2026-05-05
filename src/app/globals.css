@@ -28,7 +28,7 @@ img { display: block; width: 100%; height: 100%; object-fit: cover; }
 /* 소셜 아이콘 & 카피라이트 */
 .sidebar__bottom { margin-top: auto; }
 .sidebar__social { display: flex; gap: 12px; margin-bottom: 8px; align-items: center; }
-.sidebar__social a { color: #111; display: flex; align-items: center; transition: opacity 0.2s; }
+.sidebar__social a {font-size: 1.5rem; color: #111; display: flex; align-items: center; transition: opacity 0.2s; }
 .sidebar__social a:hover { opacity: 0.4; }
 .sidebar__copyright { font-size: 1rem; color: #aaa; }
 /* ─── Main Content ──────────────────────────────────────────────── */
