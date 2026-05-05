@@ -362,57 +362,5 @@
         "caption": "유통과 가공 과정을 단계적으로 구성하여, 사용자가 제품의 신선도와 품질을 자연스럽게 이해할 수 있도록 설계했습니다. 시각적 요소를 통해 신뢰와 브랜드 이미지를 동시에 강화했습니다."
       }
     ]
-  },
-  {
-    "id": "megacarti",
-    "slug": "megacarti",
-    "title": "메가카티",
-    "category": "Web Design | Publishing",
-    "thumbnail": "/images/megacarti/thumb.jpg",
-    "date": "2025.04",
-    "period": "2025.03 - 2025.04",
-    "description": "메가카티 웹사이트는 카테터 기반 의료기기의 전문성과 제품 신뢰도를 효과적으로 전달하고, 의료 분야에서의 적용 가치를 직관적으로 보여주는 데 초점을 맞춰 제작되었습니다.",
-    "url": "https://megacarti.co.kr/",
-    "sections": [
-      {
-        "type": "full",
-        "image": "/images/megacarti/hero.jpg",
-        "caption": "의료기기의 전문성을, 명확한 정보 구조로 전달하다."
-      },
-      {
-        "type": "grid",
-        "images": [
-          "/images/megacarti/img1.jpg",
-          "/images/megacarti/img2.jpg"
-        ],
-        "caption": "제품 정보와 적용 분야를 함께 구성하여, 사용자가 의료기기의 역할과 특성을 쉽게 이해할 수 있도록 설계했습니다. 의료 산업 특성을 반영해 신뢰도와 가독성을 강화했습니다."
-      }
-    ]
-  },
-  {
-    "id": "cryopen",
-    "slug": "cryopen",
-    "title": "크라이오펜",
-    "category": "Web Design | Publishing",
-    "thumbnail": "/images/cryopen/thumb.jpg",
-    "date": "2025.03",
-    "period": "2025.02 - 2025.03",
-    "description": "크라이오펜 웹사이트는 피부 시술용 냉각 의료기기의 효과와 사용성을 직관적으로 전달하고, 시술 중심의 제품 가치를 효과적으로 보여주는 데 초점을 맞춰 제작되었습니다.",
-    "url": "https://cryopen2024.mycafe24.com/",
-    "sections": [
-      {
-        "type": "full",
-        "image": "/images/cryopen/hero.jpg",
-        "caption": "시술 결과 중심의 경험으로, 제품의 가치를 전달하다."
-      },
-      {
-        "type": "grid",
-        "images": [
-          "/images/cryopen/img1.jpg",
-          "/images/cryopen/img2.jpg"
-        ],
-        "caption": "제품 기능 설명에 그치지 않고, 실제 시술 흐름과 결과 중심으로 콘텐츠를 구성하여 사용자가 효과를 직관적으로 이해할 수 있도록 설계했습니다. 의료기기 특성을 반영해 신뢰도와 전문성을 함께 강화했습니다."
-      }
-    ]
   }
 ]
