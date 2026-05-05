@@ -19,7 +19,7 @@ img { display: block; width: 100%; height: 100%; object-fit: cover; }
 .sidebar__nav a { font-size: 1.5rem; color: #aaa; transition: color 0.2s; }
 .sidebar__nav a:hover, .sidebar__nav a.active { color: #111; }
 /* 상세 페이지 사이드바 */
-.sidebar__project-name { font-size: 1.4rem; font-weight: 500; margin-bottom: 2px; margin-top: 40px; }
+.sidebar__project-name { font-size: 2rem; font-weight: 500; margin-bottom: 10px; margin-top: 40px; }
 .sidebar__project-category { font-size: 1.1rem; color: #888; margin-bottom: 16px; }
 .sidebar__project-desc { font-size: 1.1rem; color: #444; line-height: 1.6; margin-bottom: 20px; }
 .sidebar__project-period { font-size: 1.1rem; color: #888; margin-bottom: 20px; }
@@ -60,8 +60,8 @@ img { display: block; width: 100%; height: 100%; object-fit: cover; }
 /* 갤러리 섹션 */
 .gallery-section { margin-bottom: 40px; }
 .gallery-section__full { width: 100%; aspect-ratio: 16 / 9; overflow: hidden; background: #f0f0f0; }
-.gallery-section__grid { display: grid; grid-template-columns: 1fr 1fr; gap: 4px; background: #f0f0f0; }
-.gallery-section__grid-item { aspect-ratio: 4 / 2; overflow: hidden; background: #eee; }
+.gallery-section__grid { display: grid; grid-template-columns: 1fr 1fr; gap: 6px; background: #f0f0f0; }
+.gallery-section__grid-item { aspect-ratio: 4 / 3; overflow: hidden; background: #eee; }
 .gallery-section__caption { padding: 12px 0 0; font-size: 1.1rem; color: #555; line-height: 1.7; white-space: pre-line; }
 /* ─── About / Contact ───────────────────────────────────────────── */
 .page-content { padding: 60px 48px; max-width: 600px; }
