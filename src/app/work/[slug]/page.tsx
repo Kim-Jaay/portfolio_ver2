@@ -49,7 +49,7 @@ export default function ProjectDetailPage({
       <Sidebar mode="detail" project={project} />
 
       {/* 우측 갤러리 */}
-      <main className="main detail">
+      <main className="detail">
         {/* X 닫기 버튼 */}
         <CloseButton />
 

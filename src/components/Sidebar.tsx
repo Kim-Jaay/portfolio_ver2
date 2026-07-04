@@ -61,39 +61,41 @@ export default function Sidebar(props: SidebarProps) {
         JAYDAY
       </Link>
 
-      {/* 모드별 중간 콘텐츠 */}
-      {props.mode === 'list' ? (
-        // ── 리스트 모드: 네비게이션 ──
-        <nav className="sidebar__nav">
-          <Link href="/" className={pathname === '/' ? 'active' : ''}>
-            Work
-          </Link>
-          <Link href="/about" className={pathname === '/about' ? 'active' : ''}>
-            About
-          </Link>
-          <Link href="/contact" className={pathname === '/contact' ? 'active' : ''}>
-            Contact
-          </Link>
-        </nav>
-      ) : (
-        // ── 상세 모드: 프로젝트 정보 ──
-        <div>
-          <p className="sidebar__project-name">{props.project.title}</p>
-          <p className="sidebar__project-category">{props.project.category}</p>
-          <p className="sidebar__project-desc">{props.project.description}</p>
-          <p className="sidebar__project-period">{props.project.period}</p>
-          {props.project.url && (
-            <a
-              href={props.project.url}
-              target="_blank"
-              rel="noreferrer"
-              className="sidebar__view-link"
-            >
-              View Page
-            </a>
-          )}
-        </div>
-      )}
+      <div className="sidebar__content">
+        {/* 모드별 중간 콘텐츠 */}
+        {props.mode === 'list' ? (
+          // ── 리스트 모드: 네비게이션 ──
+          <nav className="sidebar__nav">
+            <Link href="/" className={pathname === '/' ? 'active' : ''}>
+              Work
+            </Link>
+            <Link href="/about" className={pathname === '/about' ? 'active' : ''}>
+              About
+            </Link>
+            <Link href="/contact" className={pathname === '/contact' ? 'active' : ''}>
+              Contact
+            </Link>
+          </nav>
+        ) : (
+          // ── 상세 모드: 프로젝트 정보 ──
+          <div className="sidebar__project">
+            <p className="sidebar__project-name">{props.project.title}</p>
+            <p className="sidebar__project-category">{props.project.category}</p>
+            <p className="sidebar__project-desc">{props.project.description}</p>
+            <p className="sidebar__project-period">{props.project.period}</p>
+            {props.project.url && (
+              <a
+                href={props.project.url}
+                target="_blank"
+                rel="noreferrer"
+                className="sidebar__view-link"
+              >
+                View Page
+              </a>
+            )}
+          </div>
+        )}
+      </div>
 
       {/* 하단 소셜 + 카피라이트 */}
       <SidebarBottom />

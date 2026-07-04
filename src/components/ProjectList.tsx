@@ -4,7 +4,7 @@ import { useState } from 'react'
 import type { Project } from '../types/project'
 import ProjectCard from './ProjectCard'
 
-const PAGE_SIZE = 8
+const PAGE_SIZE = 12
 
 interface ProjectListProps {
   projects: Project[]
@@ -28,6 +28,16 @@ export default function ProjectList({ projects }: ProjectListProps) {
 
   return (
     <>
+      <div className="project-list__header">
+        <div>
+          <p className="project-list__eyebrow">Selected Work</p>
+          <h1 className="project-list__title">Archive</h1>
+        </div>
+        <p className="project-list__count">
+          {visibleProjects.length}/{projects.length}
+        </p>
+      </div>
+
       <div className="project-list">
         {visibleProjects.map((project) => (
           <ProjectCard key={project.id} project={project} />

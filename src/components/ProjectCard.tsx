@@ -9,7 +9,6 @@ interface ProjectCardProps {
 export default function ProjectCard({ project }: ProjectCardProps) {
   return (
     <Link href={`/work/${project.slug}`} className="project-card">
-      {/* 썸네일 */}
       <div className="project-card__image">
         <Image
           src={project.thumbnail}
@@ -19,9 +18,9 @@ export default function ProjectCard({ project }: ProjectCardProps) {
           priority={false}
           style={{ width: '100%', height: '100%', objectFit: 'cover' }}
         />
+        <span className="project-card__category">{project.category}</span>
       </div>
 
-      {/* 제목 + 날짜 */}
       <div className="project-card__info">
         <span className="project-card__title">{project.title}</span>
         <span className="project-card__date">{project.date}</span>
