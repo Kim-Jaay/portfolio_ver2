@@ -30,7 +30,6 @@ export default function ProjectList({ projects }: ProjectListProps) {
     <>
       <div className="project-list__header">
         <div>
-          <p className="project-list__eyebrow">Selected Work</p>
           <h1 className="project-list__title">Archive</h1>
         </div>
         <p className="project-list__count">
